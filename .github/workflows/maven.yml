@@ -22,18 +22,18 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Running test automation framework with Maven
-      run: mvn -X -Dbrowser=chrome -DisLambdaTest=false -DisHeadLess=true
+      run: mvn test -X -Dbrowser=chrome -DisLambdaTest=false -DisHeadLess=true
       
     - name: Upload Test Logs
       if: always()
-      uses: actions/upload-artifact@v3.2.2
+      uses: actions/upload-artifact@v4
       with:
        name: Test Logs
        path: logs/
 
     - name: Upload Test Reports
       if: always()
-      uses: actions/upload-artifact@v3.2.2
+      uses: actions/upload-artifact@v4
       with:
        name: Test Reports
        path: report.html
