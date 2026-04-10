@@ -1,19 +1,21 @@
-2026:04:09 17:17:14[main] INFO com.ui.listeners.TestListener::onStart::62 TEST SUITE STARTED  
-2026:04:09 17:17:26[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::103 Launching the website https://automationpractice.techwithjatin.com/  
-2026:04:09 17:17:28[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::108 Maximizing the page  
-2026:04:09 17:17:28[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTestWithExel  
-2026:04:09 17:17:28[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with valid credentials user is able to login to the application  
-2026:04:09 17:17:28[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e2e, sanity]  
-2026:04:09 17:17:28[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToLoginPage::36 Clicks the sign in link  
-2026:04:09 17:17:28[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::115 Finding the element By.xpath: //a[contains(text(),'Sign in')]  
-2026:04:09 17:17:28[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found, performing click  
-2026:04:09 17:17:29[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding the element By.id: email  
-2026:04:09 17:17:29[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found. Entering the text pikace9130@fun4k.com  
-2026:04:09 17:17:29[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding the element By.id: passwd  
-2026:04:09 17:17:29[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found. Entering the text Test@1234  
-2026:04:09 17:17:30[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::115 Finding the element By.id: SubmitLogin  
-2026:04:09 17:17:30[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found, performing click  
-2026:04:09 17:17:30[TestNG-test=UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibletext::130 Finding the element By.xpath: //a[contains(@title,'customer account')]/span  
-2026:04:09 17:17:31[TestNG-test=UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibletext::132 Element found. Displaying the visible text Neeraj Joshi  
-2026:04:09 17:17:31[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestSuccess::36 loginTestWithExel  PASSED  
-2026:04:09 17:17:31[main] INFO com.ui.listeners.TestListener::onFinish::67 TEST SUITE COMPLETED  
+2026:04:09 22:34:02[main] INFO com.ui.listeners.TestListener::onStart::62 TEST SUITE STARTED  
+2026:04:09 22:34:03[TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginTest::setUp::39 Load the homepage of the website  
+2026:04:09 22:34:03[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::<init>::34 Launching Browser CHROME  
+2026:04:09 22:34:06[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToWebsite::103 Launching the website https://automationpractice.techwithjatin.com/  
+2026:04:09 22:34:08[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::maximizeWindow::108 Maximizing the page  
+2026:04:09 22:34:08[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::28 loginTestWithExel  
+2026:04:09 22:34:08[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::29 Verifies with valid credentials user is able to login to the application  
+2026:04:09 22:34:08[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestStart::30 [e2e, sanity]  
+2026:04:09 22:34:08[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::goToLoginPage::36 Clicks the sign in link  
+2026:04:09 22:34:08[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::115 Finding the element By.xpath: //a[contains(text(),'Sign in')]  
+2026:04:09 22:34:08[TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage::clickOn::118 Element found, performing click  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding the element By.id: email  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found. Entering the text pikace9130@fun4k.com  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::123 Finding the element By.id: passwd  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::enterText::125 Element found. Entering the text Test@1234  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::115 Finding the element By.id: SubmitLogin  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage::clickOn::118 Element found, performing click  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibletext::130 Finding the element By.xpath: //a[contains(@title,'customer account')]/span  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.pages.MyAccountPage::getVisibletext::132 Element found. Displaying the visible text Neeraj Joshi  
+2026:04:09 22:34:09[TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener::onTestSuccess::36 loginTestWithExel  PASSED  
+2026:04:09 22:34:09[main] INFO com.ui.listeners.TestListener::onFinish::67 TEST SUITE COMPLETED  
